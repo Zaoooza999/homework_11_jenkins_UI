@@ -20,7 +20,7 @@ public class RegistrationPageTests {
     }
     @Test
     void fullAutorizationTest() {
-        open("https://pn.ru/");
+        open("https://new.pn.ru/");
         open("/automation-practice-form");
         executeJavaScript("document.querySelector('footer').remove();");
         executeJavaScript(
